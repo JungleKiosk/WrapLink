@@ -1,0 +1,70 @@
+@use "./../../../node_modules/bootstrap/scss/bootstrap.scss";
+@use "./partials/_variables.scss" as *;
+@use "./partials/_navbar.scss" as *;
+@use "./partials/_footer.scss" as *;
+
+body.light-mode {
+  background-color: $light;
+  color: $dark;
+  .nota{
+    background-color: $notalight;
+  }
+}
+
+body.dark-mode {
+  background-color: $dark;
+  color: $light;
+  .nota{
+    background-color: $notadark;
+  }
+}
+
+body {
+  background-color: $bg_body;
+  color: $light;
+  font-family: monospace;
+  overflow-x: hidden;
+  max-width: 100%;
+  padding-top: 50px;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $bg_body;
+  height: 123px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #1dc0bb;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  border-left: 1px solid $bg_body;
+}
+
+
+.theme-button {
+  background-color: #34495e;
+  color: white;
+}
+.theme-button:hover {
+  background-color: #34495e;
+}
+
+body.dark-mode .theme-button {
+  background-color: #34495e;
+  color: white;
+}
+
+a {
+  color: #1dc0bb;
+}
+
+img {
+  width: 80%;
+}
+
