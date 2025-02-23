@@ -222,18 +222,7 @@ export default {
                             <p class="card-text">{{ link.description }}</p>
                             <a v-if="link.url" :href="link.url" target="_blank" class="btn btn-primary">Visita Sito</a>
                             <p v-else class="text-muted">N/A</p>
-                            <p><strong>CU:</strong> <span class="badge bg-secondary">{{ link.cu }}</span></p>
-                            <p><strong>INSPIRE:</strong> {{ Array.isArray(link.inspire) ? link.inspire.join(', ') : link.inspire }}</p>
-                            <p>
-                                <strong>Stato:</strong>
-                                <span class="badge" :class="{
-                                    'bg-success': link.stato === 'Noti e Accessibili',
-                                    'bg-warning text-dark': link.stato === 'Noti ma non accessibili',
-                                    'bg-danger': link.stato === 'Non Noti'
-                                }">
-                                    {{ link.stato }}
-                                </span>
-                            </p>
+                            <p><strong>note:</strong> <span class="badge bg-secondary">{{ link.cu }}</span></p>
                             <div>
                                 <strong>Tags:</strong>
                                 <span v-for="tag in link.tags" :key="tag" class="badge bg-info text-dark mx-1">
