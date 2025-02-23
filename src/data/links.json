@@ -1,31 +1,102 @@
 [
   {
-    "id": 1,
-    "title": "INSPIRE Data Model",
-    "url": "https://inspire-mif.github.io/uml-models/approved/html/",
-    "description": "Diagramma del Data Model INSPIRE, utile a comprendere le relazioni fra gli oggetti e gli attributi del modello INSPIRE Soil per l'armonizzazione dei Dati. ",
-    "tags": ["INSPIRE", "Data Model"],
-    "cu": "O3",
-    "inspire": ["na"],
-    "stato": "Noti e Accessibili"
+      "id": 1,
+      "title": "streambatch",
+      "url": "https://www.streambatch.io/",
+      "description": "Resource related to streambatch in rs",
+      "tags": ["NDVI"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
   },
   {
-    "id": 2,
-    "title": "Diagramma EJP SOIL - H2020",
-    "url": "https://github.com/ejpsoil/inspire_soil_gpkg_template/blob/main/geopackage/DB_Schema.png",
-    "description": "Disegno Postgres del DB relazionare INSPIRE Soil Data Model sul Github del EJP SOIL - H2020",
-    "tags": [
-      "Download",
-      "Data Model",
-      "EJP SOIL",
-      "CREA",
-      "Github",
-      "Postgres",
-      "database",
-      "Adattamento"
-    ],
-    "cu": "O3",
-    "inspire": ["na"],
-    "stato": "Noti e Accessibili"
+      "id": 2,
+      "title": "streambatch",
+      "url": "https://www.streambatch.io/knowledge/ndvi-from-first-principles",
+      "description": "Resource related to streambatch in rs",
+      "tags": ["rs", "streambatch"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
+  },
+  {
+      "id": 3,
+      "title": "eos_data_analytics",
+      "url": "https://eos.com/make-an-analysis/ndvi/",
+      "description": "Resource related to eos_data_analytics in rs",
+      "tags": ["rs", "eos_data_analytics"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
+  },
+  {
+      "id": 4,
+      "title": "index_database",
+      "url": "https://www.indexdatabase.de/db/i.php",
+      "description": "Resource related to index_database in rs",
+      "tags": ["rs", "index_database"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
+  },
+  {
+      "id": 5,
+      "title": "link",
+      "url": "",
+      "description": "link",
+      "tags": ["service", "pix4"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
+  },
+  {
+      "id": 6,
+      "title": "Deep learning Workshop for Satellite Imagery - Data Processing (Part 1/3)",
+      "url": "https://www.youtube.com/watch?v=3Xn21RT-y7Y&t=845s",
+      "description": "Deep learning Workshop for Satellite Imagery - Data Processing (Part 1/3)",
+      "tags": ["rs", "video"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
+  },
+  {
+      "id": 7,
+      "title": "Crop Yield Prediction | Enhancing Agriculture with Machine Learning",
+      "url": "https://www.youtube.com/watch?v=vGOvUoqn_M8",
+      "description": "Crop Yield Prediction | Enhancing Agriculture with Machine Learning",
+      "tags": ["crop", "video"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
+  },
+  {
+      "id": 8,
+      "title": "Form FLASK - Crop Yield Prediction Using Machin Learning Python",
+      "url": "https://github.com/611noorsaeed/Crop-Yield-Prediction-Using-Machin-Learning-Python/blob/main/CropYield-Prediction.ipynb",
+      "description": "Form FLASK - Crop Yield Prediction Using Machin Learning Python",
+      "tags": ["crop", "github"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
+  },
+  {
+      "id": 9,
+      "title": "opentopography",
+      "url": "https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.2",
+      "description": "Resource related to opentopography in DEM",
+      "tags": ["DEM", "opentopography"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
+  },
+  {
+      "id": 10,
+      "title": "WorldClim - 30m",
+      "url": "https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.2",
+      "description": "WorldClim - 30m",
+      "tags": ["DEM", "Raster (.TIF)"],
+      "cu": "",
+      "inspire": ["na"],
+      "stato": "Noti e Accessibili"
   }
 ]
