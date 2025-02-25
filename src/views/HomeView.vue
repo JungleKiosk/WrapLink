@@ -215,12 +215,12 @@ export default {
         <!-- Contenuto principale con CARD -->
         <div class="content-area">
             <div class="row">
-                <div class="col-md-4" v-for="link in filteredLinks" :key="link.id">
-                    <div class="card mb-4">
-                        <div class="card-body">
+                <div class="col-6 col-md-4 col-lg-2" v-for="link in filteredLinks" :key="link.id">
+                    <div class="card card_retro mb-4">
+                        <div class="card-body card_bg card">
                             <h5 class="card-title">{{ link.title }}</h5>
                             <p class="card-text">{{ link.description }}</p>
-                            <a v-if="link.url" :href="link.url" target="_blank" class="btn btn-primary">Visita Sito</a>
+                            <a v-if="link.url" :href="link.url" target="_blank" class="btn btn_link">Visita Sito</a>
                             <p v-else class="text-muted">N/A</p>
                             <p><strong>note:</strong> <span class="badge bg-secondary">{{ link.cu }}</span></p>
                             <div>
